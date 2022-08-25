@@ -4,10 +4,13 @@ metadata:
   name: nginx
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: "nginx"
   template:
     metadata:
       labels:
-        role: nginx
+        app: "nginx"
     spec:
       containers:
         - name: nginx
