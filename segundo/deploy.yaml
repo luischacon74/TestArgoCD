@@ -3,10 +3,7 @@ kind: Deployment
 metadata:
   name: nginx
 spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      role: nginx
+  replicas: 1
   template:
     metadata:
       labels:
