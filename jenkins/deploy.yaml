@@ -15,6 +15,7 @@ spec:
       containers:
         - name: jenkins
           image: jenkins/jenkins:lts-alpine-jdk11
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
           volumeMounts:
