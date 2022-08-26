@@ -1,5 +1,5 @@
-FROM nginx:latest
+FROM gcr.io/google-samples/hello-app:1.0
 
 
 
-EXPOSE 80
+EXPOSE 8080
