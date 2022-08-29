@@ -7,6 +7,8 @@ images:
 - name: chiper
   newName: ghcr.io/diegocarlo0526/testargocd/nginx
   newTag: "28"
+- name: ghcr.io/diegocarlo0526/testargocd/nginx
+  newTag: "30"
 - name: nginx
   newName: ghcr.io/diegocarlo0526/testargocd/nginx
   newTag: "29"
