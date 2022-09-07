@@ -17,10 +17,10 @@ spec:
           image: ghcr.io/diegocarlo0526/testargocd/nginx:latest
           resources:
             requests:
-              memory: "16Mi"
+              memory: "128Mi"
               cpu: "100m"
             limits:
-              memory: "128Mi"
+              memory: "512Mi"
               cpu: "200m"
           ports:
             - containerPort: 8080
